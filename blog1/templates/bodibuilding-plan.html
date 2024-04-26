@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>برنامه بدنسازی</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="text-center">
+    <a href="{% url 'home' %}">home</a>
+    <a href="{% url 'blog:about' %}">About us</a>
+    <a href="{% url 'blog:contact' %}">Contact us</a>
+    <h1>welcome</h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+
+    </div>
+    <div class="col-md-4">
+        <table class="table text-center">
+            <thead>
+            <tr>
+                <th scope="col">برنامه روز {{ day }}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">{{ plan }}</th>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-4">
+
+    </div>
+</div>
+
+</body>
+</html>
