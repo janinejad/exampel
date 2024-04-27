@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^s)m822#3s82(7&h21ame3vee3#!@83ig(+(+n^diva+ee&b+p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['asangozin.runflare.run','127.0.0.1','asangozin.ir']
+ALLOWED_HOSTS = ['asangozin.runflare.run','127.0.0.1','asangozin.ir','asangozin.com']
 
 
 # Application definition
