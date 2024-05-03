@@ -4,9 +4,6 @@ venv/
 /.cloud/
 .cloud/
 /.cloud
-/db.sqlite3
-db.sqlite3/
-/db.sqlite3/
 /media
 media/
 /static

@@ -1,8 +1,10 @@
 from django.shortcuts import render
 # from django.shortcuts import HttpResponse
 from django.http import HttpResponse
+from django.views.decorators.cache import cache_page
 
 
+@cache_page(60 * 15)
 def hello(request):
     return render(request, 'home.html', {})
 
